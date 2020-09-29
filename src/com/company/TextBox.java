@@ -3,9 +3,15 @@ package com.company;
 public class TextBox extends UIControl{
     public String text;
 
-    public TextBox(){
-        super(true);
-//        System.out.println("Print TextBox");
+    // Constructor
+//    public TextBox(){
+//        super(true);
+//    }
+
+
+    @Override
+    public void render() {
+        System.out.println("Render textbox");
     }
 
     @Override

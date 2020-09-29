@@ -1,12 +1,14 @@
 package com.company;
 
 public class UIControl {
+    // This is a abstract class
     private boolean isEnabled;
 
-    public UIControl(boolean isEnabled){
-        this.isEnabled = isEnabled;
-//        System.out.println("Print UIControl");
-    }
+//    public UIControl(boolean isEnabled){
+//        this.isEnabled = isEnabled;
+//    }
+
+    public void render(){}
 
     public void enable(){
         this.isEnabled = true;
